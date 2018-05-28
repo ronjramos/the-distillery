@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.main-img {
+	background-image: url(../images/bg3.jpg);
+	background-size: cover;
+	width:100vw;
+	height: 100vh;
+	opacity: .86;
+}
+
+.more {
+	height: 100vh;
+}
