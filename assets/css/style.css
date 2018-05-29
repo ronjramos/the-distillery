@@ -1,17 +1,138 @@
 * {
-	margin: 0;
-	padding:0;
-	box-sizing: border-box;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color:#777;
 }
 
-.main-img {
-	background-image: url(../images/bg3.jpg);
-	background-size: cover;
-	width:100vw;
-	height: 100vh;
-	opacity: .86;
+body {
 }
 
-.more {
-	height: 100vh;
+
+/*Home*/
+
+.homebgimage {
+  width:100%;
+  height:100vh;
+  background: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
 }
+
+
+.homebgimage2 {
+  width:100%;
+  height:30vh;
+  background: url(../images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.headertext {
+  height:40vh;
+}
+
+.p-color {
+  color:white;
+}
+
+
+
+/*End Home*/
+
+
+
+
+
+
+
+
+
+
+/*Contact Us*/
+
+
+.bgimage {
+  width:100%;
+  height:500px;
+  background: url(../images/contactus.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.bgimage h1,
+.bgimage h3 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+
+/*End Contact Us*/
+
+
+
+
+/*Start Footer*/
+
+footer {
+  background:lightgrey;
+}
+
+.footerlinks {
+  color:#333;
+}
+
+
+/*End Footer*/
+
+
+/*Product Page*/
+.products-title {
+
+}
+
+.card-body {
+  padding: 0.5rem 1rem 0.75rem 1rem !important;
+}
+
+.card-title {
+}
+
+
+/*End Product Page*/
+
+
+
+/*Landing Page*/
+
+.mainlanding {
+  width:100vw;
+  height: 100vh;
+  background: url(../images/landingpage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.lpgif {
+  opacity: .8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*End Landing Page*/
