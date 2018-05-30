@@ -2,7 +2,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  color:#777;
+  color:#555;
 }
 
 body {
@@ -13,8 +13,8 @@ body {
 
 .homebgimage {
   width:100%;
-  height:100vh;
-  background: url(../images/bg.jpg);
+  height:70vh;
+  background: url(../images/bg2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
@@ -23,9 +23,9 @@ body {
 
 
 .homebgimage2 {
-  width:100%;
-  height:30vh;
-  background: url(../images/bg2.jpg);
+  min-width:100%;
+  min-height:30vh;
+  background: url(../images/bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
@@ -33,15 +33,22 @@ body {
 }
 
 .headertext {
-  height:40vh;
+  min-height:30vh;
 }
 
 .p-color {
   color:white;
 }
 
+.icons {
+  background-color: rgba(170, 170, 170, 0.7);
+  border-radius: 10px;
 
+}
 
+.headings {
+  color:#333333;
+}
 /*End Home*/
 
 
@@ -69,7 +76,7 @@ body {
 .bgimage h1,
 .bgimage h3 {
   color:white;
-  text-shadow:2px 2px #333;
+  text-shadow:2px 2px #555;
 }
 
 /*End Contact Us*/
@@ -80,11 +87,15 @@ body {
 /*Start Footer*/
 
 footer {
-  background:lightgrey;
+  background:#343a40;
 }
 
 .footerlinks {
-  color:#333;
+  color:white;
+}
+
+.footercolor {
+  color:white !important;
 }
 
 
@@ -100,39 +111,35 @@ footer {
   padding: 0.5rem 1rem 0.75rem 1rem !important;
 }
 
-.card-title {
-}
-
 
 /*End Product Page*/
 
 
 
-/*Landing Page*/
+/*Footer*/
 
-.mainlanding {
-  width:100vw;
-  height: 100vh;
-  background: url(../images/landingpage.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-  background-attachment: fixed;
+.socials {
+  color:white !important;
 }
 
-.lpgif {
-  opacity: .8;
+.white-hr {
+  background-color:lightgrey;
 }
 
 
 
+/*End Footer*/
 
 
+/*Navbar*/
 
+.nav-icons {
+  color: white;
+}
 
+.navbar-nav {
+  font-weight: bold;
+  font-size:1.1em;
+}
 
-
-
-
-
-/*End Landing Page*/
+/*End Navbar*/

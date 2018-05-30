@@ -1,0 +1,55 @@
+/*Landing Page*/
+
+.mainlanding {
+  width:100vw;
+  height: 100vh;
+  background: url(../images/landingpage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.lpgif {
+  opacity: .8;
+}
+
+
+
+
+
+/*Change hue*/
+
+
+
+
+div {
+  animation: hue-rotate 10s linear infinite;
+}
+
+
+@keyframes hue-rotate {
+      from {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0);
+      }
+      to {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+      }
+}
+
+/* End Change Hue*/
+
+
+
+
+
+
+/*End Landing Page*/
+
+
