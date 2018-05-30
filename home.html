@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="assets/css/hover-min.css" >
 
 	<!-- Google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Patua+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
     <!-- favicon -->
     <link rel="icon" href="assets/images/whiskey.png" type="image/x-icon"/>
@@ -33,7 +33,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">The Distillery</a>
+        <a class="navbar-brand dist" href="index.html">The Distillery</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -72,8 +72,24 @@
     <div class="container-fluid">
     	<div class="row headertext">
         	<div class="col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 text-center my-3">
-	        	<h2 class="p-4 m-0  wow fadeInDown headings">The Distillery</h2>
-	        	<p class="mb-5">Since the early 1800’s The Distillery has served as Manila’s neighborhood convenience store. Located in the heart of Mandaluyong, we proudly serve a great collection of Liquor, Wine, and much more to our community. We stock and support local brands as well as international brands, and have everything from hard to find Beer to Whiskey and much more liquors. </p>
+                <h2 id="dist" class="p-4 m-0  wow fadeInDown headings">The Distillery</h2>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 my-3">
+    	        	
+    	        	<p class="distabout"><em>Since the early 1800’s The Distillery has served as Manila’s neighborhood convenience store. Located in the heart of Mandaluyong, we proudly serve a great collection of Liquor, Wine, and much more to our community. We stock and support local brands as well as international brands, and have everything from hard to find Beer to Whiskey and much more liquors. </em></p>
+                    </div>
+                        
+                    <div class="col-lg-6 col-md-12 col-sm-12 my-3">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 my-3">
+                                <img class="imghome" src="assets/images/distrightimg.jpg" />
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 my-3">
+                                <img class="imghome" src="assets/images/distrightimg1.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <hr>
         	</div>
         </div> <!-- end header 3 section-->
@@ -83,23 +99,31 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-11 col-md-11 col-sm-12 offset-lg-1 offset-md-1 my-4">
+            <div class="col-lg-11 col-md-11 col-sm-12 offset-lg-1 offset-md-1 my-3 ">
                 <div class="row promo pb-4">
-                    <div class="col-lg-6 col-md-5 col-sm-12">
-                        <h3>Promos</h3>
-                        <p>Subscribe to our newsletter and get a FREE Bacardi Gold on your next purchase!</p>
+                    <div class="col-lg-2 col-md-5 col-sm-12">
+                        <img class="imghome mb-4" src="assets/images/jdpromo.jpg" />
                     </div>
-                    <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="col-lg-2 col-md-5 col-sm-12 offset-md-1 offset-lg-0">
+                        <img class="imghome mb-4" src="assets/images/jdpromo1.jpg" />
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <h3>Promos</h3>
+                        <p>Subscribe to our newsletter and get a FREE Jack Daniels on your next purchase!</p>
+                        <small>*Terms and conditions apply.</small>
+                    </div>
+                    <div class="col-lg-3 col-md-5 col-sm-12">
                         <form>
                             <div class="form-group">
                                 <h4 for="subscribe">Email address:</h4>
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
-                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                            <button type="submit" class="btn btn-info">Subscribe</button>
                         </form>
                     </div>
                 </div>
+
             </div>
         </div> <!-- end Promo section-->
     </div> <!-- end Container -->
@@ -147,8 +171,9 @@
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Bacardi Mojito</h6>
                                 <small class="card-text">700ml</small>
-                                <p class="card-text"><strong class="text-muted">₱950</strong></p>
-                                <a href="#" class="btn btn-success btn-sm">Add to Cart</a>
+                                <p class="card-text mb-0"><strong class="text-muted">₱950</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atch" src="assets/images/atc.jpg"/></a>
                             </div>
                         </div>
                     </div>
@@ -159,8 +184,9 @@
                             <div class="card-body">
                                 <h6 class="card-title mb-0">1800 Anejo</h6>
                                 <small class="card-text">100ml</small>
-                                <p class="card-text"><strong class="text-muted">₱1,450</strong></p>
-                                <a href="#" class="btn btn-success btn-sm">Add to Cart</a>
+                                <p class="card-text mb-0"><strong class="text-muted">₱1,450</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atch" src="assets/images/atc.jpg"/></a>
                             </div>
                         </div>
                     </div>
@@ -171,8 +197,9 @@
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Malibu</h6>
                                 <small class="card-text">700ml</small>
-                                <p class="card-text"><strong class="text-muted">₱550</strong></p>
-                                <a href="#" class="btn btn-success btn-sm">Add to Cart</a>
+                                <p class="card-text mb-0"><strong class="text-muted">₱550</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atch" src="assets/images/atc.jpg"/></a>
                             </div>
                         </div>
                     </div>
@@ -183,8 +210,9 @@
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Absolut Kurant</h6>
                                 <small class="card-text">750ml</small>
-                                <p class="card-text"><strong class="text-muted">₱850</strong></p>
-                                <a href="#" class="btn btn-success btn-sm">Add to Cart</a>
+                                <p class="card-text mb-0"><strong class="text-muted">₱850</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atch" src="assets/images/atc.jpg"/></a>
                             </div>
                         </div>
                     </div> 
@@ -204,8 +232,9 @@
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Ciroc Vodka</h6>
                                 <small class="card-text">750ml</small>
-                                <p class="card-text"><strong class="text-muted">₱2,550</strong></p>
-                                <a href="#" class="btn btn-success btn-sm">Add to Cart</a>
+                                <p class="card-text mb-0"><strong class="text-muted">₱2,550</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atch" src="assets/images/atc.jpg"/></a>
                             </div>
                         </div>
                     </div>
@@ -216,8 +245,9 @@
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Bacardi Gold</h6>
                                 <small class="card-text">700ml</small>
-                                <p class="card-text"><strong class="text-muted">₱350</strong></p>
-                                <a href="#" class="btn btn-success btn-sm">Add to Cart</a>
+                                <p class="card-text mb-0"><strong class="text-muted">₱350</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atch" src="assets/images/atc.jpg"/></a>
                             </div>
                         </div>
                     </div>
@@ -228,8 +258,9 @@
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Havana Club</h6>
                                 <small class="card-text">700ml</small>
-                                <p class="card-text"><strong class="text-muted">₱1,850</strong></p>
-                                <a href="#" class="btn btn-success btn-sm">Add to Cart</a>
+                                <p class="card-text mb-0"><strong class="text-muted">₱1,850</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atch" src="assets/images/atc.jpg"/></a>
                             </div>
                         </div>
                     </div>
@@ -240,8 +271,9 @@
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Bacardi 151</h6>
                                 <small class="card-text">700ml</small>
-                                <p class="card-text"><strong class="text-muted">₱350</strong></p>
-                                <a href="#" class="btn btn-success btn-sm">Add to Cart</a>
+                                <p class="card-text mb-0"><strong class="text-muted">₱350</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atch" src="assets/images/atc.jpg"/></a>
                             </div>
                         </div>
                     </div>                            

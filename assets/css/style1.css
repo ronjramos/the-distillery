@@ -1,21 +1,42 @@
+* {
+  font-family: 'Lobster', cursive;
+}
+
 /*Landing Page*/
 
 .mainlanding {
   width:100vw;
   height: 100vh;
-  background: url(../images/landingpage.jpg);
+  background: url(../images/landingpage1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
   background-attachment: fixed;
 }
 
-.lpgif {
-  opacity: .8;
+.heading1 {
+  font-size:6em;
+  color:#d9d9d9;
+
+
+}
+
+.bgbox {
+  background:rgba(0, 0, 0, 0.2);
+  border-radius:15px;
+  color:#d9d9d9;
 }
 
 
+/*Button*/
 
+.shop {
+  width:250px;
+  animation: pulse 1s infinite;
+}
+
+
+/*End Button*/
 
 
 /*Change hue*/
@@ -23,7 +44,7 @@
 
 
 
-div {
+/*div {
   animation: hue-rotate 10s linear infinite;
 }
 
@@ -42,7 +63,7 @@ div {
         filter: hue-rotate(360deg);
       }
 }
-
+*/
 /* End Change Hue*/
 
 
@@ -51,5 +72,3 @@ div {
 
 
 /*End Landing Page*/
-
-
