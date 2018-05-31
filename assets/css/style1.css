@@ -1,5 +1,7 @@
 * {
-  font-family: 'Lobster', cursive;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
 /*Landing Page*/
@@ -17,24 +19,68 @@
 .heading1 {
   font-size:6em;
   color:#d9d9d9;
+  font-family: 'Lobster', cursive;
 
 
 }
 
+.heading2 {
+  font-family: 'Lato', sans-serif;
+  font-size:1.5em;
+  color:#d9d9d9;
+}
 .bgbox {
-  background:rgba(0, 0, 0, 0.2);
+  background:rgba(0, 0, 0, 0.3);
   border-radius:15px;
   color:#d9d9d9;
 }
 
 
+
+@media (max-width: 575.98px) { 
+    .dt {
+  width:350px;
+}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .dt {
+  width:380px;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .dt {
+  width:400px;
+}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .dt {
+  width:400px;
+}
+}
+
+
+@media (min-width: 1200px) { 
+    .dt {
+  width:400px;
+}
+}
+
 /*Button*/
 
 .shop {
-  width:250px;
+  width:200px;
   animation: pulse 1s infinite;
 }
 
+/*.banner {
+  width:100%;
+}*/
 
 /*End Button*/
 

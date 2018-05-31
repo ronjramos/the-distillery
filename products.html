@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title> Distillery </title>
+	<title> The Distillery </title>
 
 	<!-- bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -24,8 +24,8 @@
 	<!-- hover css -->
 	<link rel="stylesheet" href="assets/css/hover-min.css" >
 
-	<!-- Google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Patua+One" rel="stylesheet">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
     <!-- favicon -->
     <link rel="icon" href="assets/images/whiskey.png" type="image/x-icon"/>
@@ -33,7 +33,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">The Distillery</a>
+        <a class="navbar-brand dist" href="index.html"><img class="logo" src="assets/images/dt.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,29 +46,74 @@
                     <a class="nav-link active" href="products.html">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0 ml-auto">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                <a href="#"><i class="nav-icons fas fa-user fa-lg m-2 pl-2"></i></a> 
+                <a href="#"><i class="nav-icons fas fa-shopping-cart fa-lg m-2"></i></a>
             </form> 
-            <a href="#"><i class="nav-icons fas fa-user fa-lg m-2 pl-2"></i></a> 
-            <a href="#"><i class="nav-icons fas fa-shopping-cart fa-lg m-2"></i></a>
         </div>
     </nav> <!-- end Navbar -->
 
 
-	
-
+<!--     <div class="container products-nav">
+        <div class="row mt-3">
+            <div class="col-lg-11 col-md-12 col-sm-12 m-auto">
+                <a class="productlinks p-2" href="products.html">ALL</a>
+                <a class="productlinks p-2" href="rum.html">Rum</a>
+                <a class="productlinks p-2" href="whisky.html">Whisky</a>
+                <a class="productlinks p-2" href="beer.html">Beer</a>
+                <a class="productlinks p-2" href="vodka.html">Vodka</a>
+                <a class="productlinks p-2" href="tequila.html">Tequila</a>
+            </div>
+        </div>
+    </div> -->
 
     <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-10 col-md-10 col-sm-12 offset-md-1 offset-lg-1">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand productlinksall" href="products.html">All Products</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item productlinks">
+                                <a class="nav-link" href="rum.html">Rum</a>
+                            </li>
+                            <li class="nav-item productlinks">
+                                <a class="nav-link" href="whisky.html">Whisky</a>
+                            </li>
+                            <li class="nav-item productlinks">
+                                <a class="nav-link" href="beer.html">Beer</a>
+                            </li>
+                            <li class="nav-item productlinks">
+                                <a class="nav-link" href="vodka.html">Vodka</a>
+                            </li>
+                            <li class="nav-item productlinks">
+                                <a class="nav-link" href="tequila.html">Tequila</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid products">
     	<div class="row text-center mt-3">
             <div class="col-lg-11 col-md-12 col-sm-12 my-5 m-auto">
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/bacardi.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/bacardi.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Bacardi 151</h6>
                                 <small class="card-text">700ml</small>
@@ -81,7 +126,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/bacardi-Carta-Blanca.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/bacardi-Carta-Blanca.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Carta Blanca</h6>
                                 <small class="card-text mb-0">700ml</small>
@@ -94,11 +139,11 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/bacardi-limon.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Blue_Moon.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h6 class="card-title mb-0">Bacardi Limon</h6>
-                                <small class="card-text">700ml</small>
-                                <p class="card-text mb-0"><strong class="text-muted">₱1,750</strong></p>
+                                <h6 class="card-title mb-0">Blue Moon</h6>
+                                <small class="card-text">330ml</small>
+                                <p class="card-text  mb-0"><strong class="text-muted">₱149</strong></p>
                                 <a href="#" class="hvr-grow">
                                 <img class="atc" src="assets/images/atc.jpg"/></a>
                             </div>
@@ -107,7 +152,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Bacardi_Mojito.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Bacardi_Mojito.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Bacardi Mojito</h6>
                                 <small class="card-text">700ml</small>
@@ -120,7 +165,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Havana-Club.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Havana-Club.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Havana Club</h6>
                                 <small class="card-text">700ml</small>
@@ -133,10 +178,50 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/1800Anejo.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Becks.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Becks</h6>
+                                <small class="card-text">275ml</small>
+                                <p class="card-text  mb-0"><strong class="text-muted">₱89</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Hoegaarden.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Hoegaarden</h6>
+                                <small class="card-text">330ml</small>
+                                <p class="card-text  mb-0"><strong class="text-muted">₱150</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/StellaA.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Stella Artois</h6>
+                                <small class="card-text">330ml</small>
+                                <p class="card-text  mb-0"><strong class="text-muted">₱89</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>                    
+
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/1800Anejo.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">1800 Anejo</h6>
-                                <small class="card-text">100ml</small>
+                                <small class="card-text">1000ml</small>
                                 <p class="card-text mb-0"><strong class="text-muted">₱1,450</strong></p>
                                 <a href="#" class="hvr-grow">
                                 <img class="atc" src="assets/images/atc.jpg"/></a>
@@ -146,7 +231,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Bacardi_gold.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Bacardi_gold.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Bacardi Gold</h6>
                                 <small class="card-text">700ml</small>
@@ -159,7 +244,20 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Malibu.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Bulleit_Bourbon.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Bulleit Bourbon</h6>
+                                <small class="card-text">1000ml</small>
+                                <p class="card-text mb-0"><strong class="text-muted">₱1,895</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Malibu.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Malibu</h6>
                                 <small class="card-text">700ml</small>
@@ -172,7 +270,33 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Patron_Anejo.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Patron_Platinum.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Patron Platinum</h6>
+                                <small class="card-text">750ml</small>
+                                <p class="card-text mb-0"><strong class="text-muted">₱15,450</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Sauza_White.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Sauza White</h6>
+                                <small class="card-text">700ml</small>
+                                <p class="card-text mb-0"><strong class="text-muted">₱799</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Patron_Anejo.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Patron Anejo</h6>
                                 <small class="card-text">700ml</small>
@@ -185,7 +309,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Absolut_kurant.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Absolut_kurant.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Absolut Kurant</h6>
                                 <small class="card-text">750ml</small>
@@ -198,7 +322,20 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/absolut_mandarin.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/GlenLivet.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Glenlivet</h6>
+                                <small class="card-text">750ml</small>
+                                <p class="card-text mb-0"><strong class="text-muted">₱2,250</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/absolut_mandarin.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Absolut Mandarin</h6>
                                 <small class="card-text">750ml</small>
@@ -211,7 +348,59 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Ciroc_Vodka.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Absolut_Vanilla.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Absolut Vanilla</h6>
+                                <small class="card-text">1000ml</small>
+                                <p class="card-text mb-0"><strong class="text-muted">₱1,050</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Absolut_Raspberry.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Absolut Raspberri</h6>
+                                <small class="card-text">1000ml</small>
+                                <p class="card-text mb-0"><strong class="text-muted">₱1,050</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Yamazaki.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Yamazaki 12yo</h6>
+                                <small class="card-text">700ml</small>
+                                <p class="card-text mb-0"><strong class="text-muted">₱14,000</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/absolut_raspberri.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Absolut Raspberri</h6>
+                                <small class="card-text">700ml</small>
+                                <p class="card-text mb-0"><strong class="text-muted">₱999</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Ciroc_Vodka.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Ciroc Vodka</h6>
                                 <small class="card-text">750ml</small>
@@ -224,7 +413,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Jack_Daniels.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Jack_Daniels.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Jack Daniels</h6>
                                 <small class="card-text">1000ml</small>
@@ -237,7 +426,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Jose_Cuervo.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Jose_Cuervo.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Jose Cuervo</h6>
                                 <small class="card-text">1000ml</small>
@@ -250,7 +439,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Sapporo.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Sapporo.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Sapporo</h6>
                                 <small class="card-text">330ml</small>
@@ -263,7 +452,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/fireball.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/fireball.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Fireball</h6>
                                 <small class="card-text">700ml</small>
@@ -276,7 +465,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Black_Label.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Black_Label.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Black Label</h6>
                                 <small class="card-text">1000ml</small>
@@ -289,11 +478,24 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                         <div class="">
-                            <img class="card-img-top hvr-grow" src="assets/images/Bombay_Sapphire.jpg" alt="Card image cap">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Bombay_Sapphire.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title mb-0">Bombay Sapphire</h6>
-                                <small class="card-text">4500ml</small>
+                                <small class="card-text">750ml</small>
                                 <p class="card-text  mb-0"><strong class="text-muted">₱599</strong></p>
+                                <a href="#" class="hvr-grow">
+                                <img class="atc" src="assets/images/atc.jpg"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+                        <div class="">
+                            <img class="card-img-top hvr-grow wow pulse" src="assets/images/Corona.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title mb-0">Corona</h6>
+                                <small class="card-text">355ml</small>
+                                <p class="card-text  mb-0"><strong class="text-muted">₱99</strong></p>
                                 <a href="#" class="hvr-grow">
                                 <img class="atc" src="assets/images/atc.jpg"/></a>
                             </div>

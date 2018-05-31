@@ -2,11 +2,20 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  color:#555;
+  color:#292026;
 
 }
 
 body {
+}
+
+.button-color {
+  background-color:#292026;
+  color:#fff;
+}
+
+.logo {
+  width:130px;
 }
 
 
@@ -58,17 +67,17 @@ body {
 }
 
 .distabout {
-  font-size:1.55em;
+  font-size:1.25em;
 }
 
 .icons {
-  background-color: rgba(170, 170, 170, 0.7);
+  background-color: rgba(139, 134, 138, 0.7);
   border-radius: 10px;
 
 }
 
 .headings {
-  color:#333333;
+  color:#292026;
   font-family: 'Lobster', cursive;
   font-size:3em;
 }
@@ -128,21 +137,40 @@ footer {
 
 
 /*Product Page*/
-.products-title {
-
+.products {
+  min-height: 70vh;
 }
 
 .atc {
-  width:65%;
+  width:120px;
 }
 
 .atch {
-  width:50%;
+  width:120px;
 }
 
 .card-body {
   padding: 0.5rem 1rem 0.75rem 1rem !important;
 }
+
+.productlinks {
+  text-decoration: none;
+  color:#555;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.productlinksall {
+  text-decoration: none;
+  color:#555;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.products-nav {
+  border-bottom: 1px solid #ebebeb;
+}
+
 
 
 /*End Product Page*/
@@ -157,6 +185,10 @@ footer {
 
 .white-hr {
   background-color:lightgrey;
+}
+
+.footerlinks > a:hover {
+  background:none;color:inherit
 }
 
 
