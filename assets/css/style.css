@@ -7,6 +7,11 @@
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  font-family: 'Lato', sans-serif !important;
 }
 
 .button-color {
@@ -81,6 +86,7 @@ body {
   font-family: 'Lobster', cursive;
   font-size:3em;
 }
+
 /*End Home*/
 
 
@@ -158,6 +164,7 @@ footer {
   color:#555;
   font-weight: bold;
   font-size: 1em;
+  font-family: 'Lato', sans-serif !important;
 }
 
 .productlinksall {
@@ -165,10 +172,21 @@ footer {
   color:#555;
   font-weight: bold;
   font-size: 1.2em;
+  font-family: 'Lato', sans-serif !important;
+
 }
 
 .products-nav {
   border-bottom: 1px solid #ebebeb;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+.productsmalltext {
+  font-size:14px;
+  line-height: 19px;
 }
 
 
@@ -187,9 +205,16 @@ footer {
   background-color:lightgrey;
 }
 
-.footerlinks > a:hover {
-  background:none;color:inherit
+h6 > a:hover {
+  text-decoration:none;
+  color:#888 !important;
 }
+
+
+hr {
+  margin-bottom: 0px !important;
+}
+
 
 
 
@@ -208,3 +233,39 @@ footer {
 }
 
 /*End Navbar*/
+
+
+
+
+/*Media*/
+
+@media (max-width: 575.98px) { 
+  .promopb {
+    padding-bottom: 30px;
+  }
+  .contacttext > ul > li {
+    list-style: none;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contacttext {
+    font-size:14px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+
+@media (min-width: 1200px) { 
+
+}

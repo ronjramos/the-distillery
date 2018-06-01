@@ -39,7 +39,7 @@
 
 @media (max-width: 575.98px) { 
     .dt {
-  width:350px;
+  width:335px;
 }
 }
 
@@ -75,7 +75,7 @@
 
 .shop {
   width:200px;
-  animation: pulse 1s infinite;
+  animation: pulse 1.5s infinite;
 }
 
 /*.banner {
